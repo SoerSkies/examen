@@ -1,6 +1,6 @@
 import "./card.css";
 
- function card({ titulo, valor, descripcion }) {
+ function Card({ titulo, valor, descripcion }) {
   return (
     <div className="card">
       <h3>{titulo}</h3>
@@ -10,4 +10,4 @@ import "./card.css";
   );
 }
 
-export default card;
+export default Card;
